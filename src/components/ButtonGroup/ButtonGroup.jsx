@@ -3,7 +3,7 @@ import Button from '../Button/Button';
 
 function ButtonGroup() {
 	return (
-		<div>
+		<div className='counter-app__btn-grp'>
 			<Button text={'Decrease'} />
 			<Button text={'Reset to 0'} />
 			<Button text={'Increase'} />

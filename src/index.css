@@ -13,7 +13,7 @@
 	background-color: grey;
 }
 
-.counter-container {
+.counter-app {
 	width: 300px;
 	display: flex;
 	flex-direction: column;

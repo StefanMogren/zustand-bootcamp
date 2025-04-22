@@ -4,7 +4,7 @@ import Counter from './components/Counter/Counter';
 function App() {
 	return (
 		<div className='app'>
-			<section className='counter-container'>
+			<section className='counter-app'>
 				<h1>Counter App</h1>
 				<Counter count={45} />
 				<ButtonGroup />

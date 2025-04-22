@@ -2,7 +2,7 @@ import './button.css';
 
 function Button({ text, onClick }) {
 	return (
-		<button className='counter-btn' onClick={onClick}>
+		<button className='counter-app__btn' onClick={onClick}>
 			{text}
 		</button>
 	);
