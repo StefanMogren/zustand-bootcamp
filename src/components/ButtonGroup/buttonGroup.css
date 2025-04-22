@@ -1,0 +1,5 @@
+.counter-app__btn-grp {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
