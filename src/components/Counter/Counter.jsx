@@ -1,6 +1,8 @@
 import './counter.css';
+import useCountStore from '../../stores/useCountStores';
 
-function Counter({ count }) {
+function Counter() {
+	const { count } = useCountStore();
 	return <>{count}</>;
 }
 
